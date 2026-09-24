@@ -9,6 +9,12 @@ of the next option premium and trade when the dealer's quotes look favorable.
 The question is whether lagged public order flow can help the dealer
 recognize dangerous periods and adjust its quotes.
 
+![Held-out strategy comparison](assets/strategy_comparison.png)
+![Sample held-out session](assets/sample_session.png)
+
+These charts are from a full `run_lab.py` run; see [Outputs](#outputs) for
+how to regenerate them, and `results/REPORT.md` for the full writeup.
+
 ## What is implemented
 
 - European call and put valuation using Black-Scholes.
